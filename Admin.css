@@ -1,0 +1,155 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Admin1
+{
+   border-width: 0;
+   margin: 0;
+}
+#wb_CssMenu1
+{
+   border: 0px solid #C0C0C0;
+   background-color: transparent;
+   margin: 0;
+   text-align: left;
+}
+#wb_CssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_CssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 4px 0px 0px;
+   width: 80px;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #FFFFFF;
+   border: 0px none #CCCCCC;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 70px;
+   height: 28px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 28px;
+   text-align: center;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
+{
+   color: #FFFFFF;
+   background-color: #000000;
+   background-image: none;
+   border: 0px none #000000;
+}
+#wb_CssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#Admin1
+{
+   position: absolute;
+   left: 154px;
+   top: 296px;
+   width: 706px;
+   height: 193px;
+   z-index: 0;
+}
+#wb_CssMenu1
+{
+   position: absolute;
+   left: 761px;
+   top: 502px;
+   width: 84px;
+   height: 53px;
+   z-index: 1;
+}
+@media only screen
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Admin1
+{
+   left: 607px;
+   top: 371px;
+   width: 706px;
+   height: 193px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_CssMenu1
+{
+   left: 1214px;
+   top: 577px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   text-align: left;
+}
+#wb_CssMenu1 li
+{
+   width: 80px;
+}
+#wb_CssMenu1 a
+{
+   color: #FFFFFF;
+   border: 0px none #CCCCCC;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 70px;
+   height: 28px;
+   padding: 0px 5px 0px 5px;
+   line-height: 28px;
+   text-align: center;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
+{
+   color: #FFFFFF;
+   background-color: #000000;
+   background-image: none;
+   border: 0px none #000000;
+}
+}
